@@ -1,0 +1,93 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:last-child {
+  margin-bottom: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 36px;
+  background-color: #ffffff;
+  color: #909090;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  max-width: 1020px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.logo {
+  display: inline-block;
+  max-width: 150px;
+}
+.mobile-menu {
+  display: inline-block;
+  max-width: 45px;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+figure {
+  margin: 0;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}

@@ -1,0 +1,93 @@
+.button {
+  display: inline-block;
+  margin-top: 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-size: 24px;
+  line-height: inherit;
+  font-family: inherit;
+  padding: 11px 13px;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+}
+.button-full {
+  width: 100%;
+}
+.button-icon {
+  display: inline-block;
+  max-width: 23px;
+  position: absolute;
+  top: 18px;
+  left: 14px;
+}
+.button-primary {
+  color: #ffffff;
+  border: 1px solid #5094f2;
+  background-color: #5094f2;
+  padding-left: 45px;
+  margin-top: 18px;
+}
+.button-primary:hover {
+  border: 1px solid #8211eb;
+  background-color: #8211eb;
+}
+@media (min-width: 640px) {
+  .button {
+    margin-top: 33px;
+  }
+  .button-primary:hover {
+    border: 1px solid #8211eb;
+    background-color: #8211eb;
+  }
+}
+.button-primary-inverse {
+  color: #151c22;
+  background-color: #ffffff;
+  border-color: #151c22;
+}
+.button-primary-inverse:hover {
+  color: #ffffff;
+  background-color: #151c22;
+}
+
+.button-success {
+  color: #ffffff;
+  background-color: green;
+}
+.button-success:hover {
+  color: green;
+  background-color: #ffffff;
+  border-color: green;
+}
+
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+.button-large {
+  padding: 16px 32px;
+}
+
+.button-small {
+  padding: 4px 8px;
+}
